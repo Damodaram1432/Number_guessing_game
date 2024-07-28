@@ -19,8 +19,8 @@ def check_answer(guessed_number,answer,Attems):
 
 
 def game():
-    print("Let me think of a number beteween 1 to 50.")
-    answer=random.randint(1,50)
+    print("Let me think of a number beteween 1 to 100.")
+    answer=random.randint(1,100)
     level=input("Choose level of difficulty-type: Easy or Hard : ")
     Attems=set_difficulty(level)
     guessed_number=0
